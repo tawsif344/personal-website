@@ -1,0 +1,92 @@
+/*--------Google-Font's--------*/
+@import url('https://fonts.googleapis.com/css2?family=Urbanist:wght@500;700&display=swap');
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    font-family: 'Urbanist', sans-serif;
+}
+img{
+    width: 500px;
+    height: auto;
+}
+a{
+    text-decoration: none;
+}
+.top_section{
+    width: 90%;
+    height: 100vh;
+    margin: 0 auto;
+    overflow: hidden;
+    margin-top: 30px;
+    background-image: url(img/header-bg.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.half_width{
+    float: left;
+    overflow: hidden;
+    width: 45%;
+    margin-left: 40px;
+}
+.hi{
+    margin-top: 100px;
+    margin-bottom: 20px;
+    font-size: 40px;
+    color: black;
+    font-weight: 200;
+    margin-left: 50px;
+}
+.name{
+    font-size: 50px;
+    color: #EC4C76;
+    margin-bottom: 30px;
+    font-weight: 700;
+    margin-left: 50px;
+}
+.pera{
+    color: rgb(161, 159, 159);
+    line-height: 30px;
+    margin-left: 50px;
+    margin-bottom: 25px;
+}
+.ancor_button{
+    margin-left: 50px;
+    display: inline-block;
+    background: linear-gradient(45deg, #EC4F8F, #EC4C76);
+    padding: 10px 20px;
+    color: #fff;
+    text-transform: uppercase;
+    font-weight: 200;
+    border-radius: 4px;
+}
+.bottom_section{
+    width: 90%;
+    height: 100vhh;
+    margin: 0 auto;
+    overflow: hidden;
+    background-image: url(img/biography-bg.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+.bilog{
+    margin-top: 150px;
+    font-size: 40px;
+}
+.lorm{
+    margin-top: 30px;
+    line-height: 25px;
+}
+.ancor_button_2{
+    margin-top: 25px;
+    display: inline-block;
+    background: linear-gradient(45deg, #EC4F8F, #EC4C76);
+    padding: 10px 20px;
+    color: #fff;
+    text-transform: uppercase;
+    font-weight: 200;
+    border-radius: 4px;
+}
